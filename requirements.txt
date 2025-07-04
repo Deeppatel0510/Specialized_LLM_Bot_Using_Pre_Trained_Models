@@ -1,0 +1,14 @@
+langchain_core
+python-dotenv
+streamlit
+langchain_community
+faiss-cpu
+ollama
+pypdf
+PyPDF2
+langgraph
+langchain-ollama
+beautifulsoup4
+bs4
+langchain-groq
+langchain-huggingface
