@@ -283,6 +283,7 @@ if user_input_manual:
         }}
     )
 
+    # Get the last message from the result
     bot_messages = result.get("messages", [])
     bot_response = bot_messages[-1].content if bot_messages else "I couldn't process your request."
     ai_msg = AIMessage(content=bot_response)
